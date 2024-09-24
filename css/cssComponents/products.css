@@ -1,0 +1,111 @@
+.products {
+  padding: 5rem 9.3rem;
+
+  background-color: rgba(255, 187, 28, 0.05);
+}
+.prodcuts-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+.productscontainercards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.products-header img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.63rem;
+  margin-bottom: 1.25rem;
+}
+.products-header h6 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+.products-header p {
+  font-size: 1.12rem;
+  line-height: 1.75rem;
+  color: #475467;
+  margin: 0;
+}
+.products-cards {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+.products-card {
+  border-radius: 0.75rem;
+  border: 1px solid #3cab90;
+  box-shadow: 0 4px 10px #47546736;
+  padding: 1.5rem;
+}
+.products-card-img {
+  background-color: rgba(60, 171, 144, 0.15);
+  padding: 0.62rem;
+  border-radius: 0.62rem;
+  text-align: center;
+  height: 6.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products-card-img img {
+  opacity: 0.5;
+}
+.products-card-content {
+  margin-top: 2rem;
+}
+.products-card-content h6 {
+  margin: 0;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+}
+.products-card-content p {
+  color: #475467;
+  font-size: 0.9rem;
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+.products-card-content .viewproduct button,
+.products-card-content .viewproduct i {
+  background-color: #fffcf3;
+}
+@media (max-width: 1200px) {
+  .products {
+    padding: 3rem;
+  }
+  .prodcuts-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .products {
+    padding: 8rem;
+  }
+  .prodcuts-container {
+    grid-template-columns: 1fr;
+  }
+  .products-card {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 786px) {
+  .products {
+    padding: 5rem;
+  }
+  .prodcuts-container {
+    grid-template-columns: 1fr;
+  }
+  .productscontainercards {
+    grid-template-columns: 1fr;
+  }
+}

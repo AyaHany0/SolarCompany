@@ -1,0 +1,41 @@
+.repair {
+  background-image: url("../../assets/8116\ 1.png");
+  background-position: center;
+  background-size: cover;
+  height: 31.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.repair-content {
+  width: 50%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.57);
+  padding: 2.75rem;
+  border-radius: 0.75rem;
+}
+.repair-content h5 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 0 0 2rem;
+}
+.repair-content p {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 140%;
+}
+@media (max-width: 786px) {
+  .repair-content {
+    width: 60%;
+    padding: 1.5rem;
+  }
+  .repair-content h5 {
+    font-size: 2rem;
+  }
+  .repair-content p {
+    font-size: 1rem;
+  }
+}

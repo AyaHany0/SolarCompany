@@ -1,0 +1,141 @@
+.reviews {
+  margin: 5rem 9.3rem;
+}
+.reviews-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.reviews-header img {
+  width: 3.6rem;
+  height: 3rem;
+}
+
+.reviews-header h6 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1.75rem 0;
+}
+.reviews-header p {
+  color: rgba(28, 28, 28, 1);
+  font-size: 1.12rem;
+  margin: 0;
+}
+.reviews-card {
+  background-color: rgba(60, 171, 144, 0.06);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.reviews-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+.reviews-card-header h6 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3cab90;
+  margin: 0;
+  margin-bottom: 3.52rem;
+  position: relative;
+}
+.reviews-card-header p {
+  font-size: 1.5rem;
+  line-height: 150%;
+  width: 75%;
+}
+.reviews-card-header .circles ul {
+  width: 4.5rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.circles ul {
+  list-style: none;
+}
+.circle-2,
+.circle-3,
+.circle-4,
+.circle-5 {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #d9d9d9;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.circle-1 {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #6b6b6b;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.reviews-card p {
+  font-size: 1.5rem;
+}
+.who-say {
+  display: flex;
+  justify-content: space-between;
+}
+.who-say-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.who-say-info img {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+.who-say-info h6 {
+  font-weight: 700;
+  color: #1c1c1c;
+  margin: 0;
+  margin-bottom: 0.56rem;
+}
+.arrows {
+  display: flex;
+  gap: 1rem;
+}
+.arrow-left,
+.arrow-right {
+  width: 3rem;
+  height: 3rem;
+  border: 0.1px solid #000;
+  border-radius: 100%;
+  padding: 0.5rem;
+  background-color: rgba(60, 171, 144, 0.06);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 922px) {
+  .reviews {
+    margin: 3rem;
+  }
+}
+@media (max-width: 786px) {
+  .reviews {
+    margin: 3rem;
+  }
+  .reviews-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .reviews-card-header {
+    flex-direction: column;
+  }
+  .circles {
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+}

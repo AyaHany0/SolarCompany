@@ -1,0 +1,95 @@
+.footer {
+  background-color: #283646;
+  padding: 5rem 9.3rem;
+  color: #fff;
+}
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3.3rem;
+  border-bottom: 1px solid #71777d;
+}
+.subscribe ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 2.5rem;
+  margin: 0;
+  margin-top: 2.3rem;
+}
+
+.subscribe ul a {
+  color: #fff;
+}
+
+.subscribe .email-input input {
+  border-radius: 2.37rem;
+  padding: 0.75rem 2.1rem;
+  border: 1px solid #b3bdc7;
+  width: 14.9rem;
+  background-color: #34363963;
+  flex-grow: 2;
+  box-shadow: 0 4px 10px #47546736;
+}
+.subscribe input::placeholder {
+  color: linear-gradient(#92989f, #343639);
+}
+.email-input button {
+  border-radius: 6.8rem;
+  padding: 0.75rem 2.1rem;
+  background-color: #ffbb1c;
+  border: 0;
+  color: #fff;
+  margin-left: -2.5rem;
+  border: 1px solid #b3bdc7;
+}
+.copyright {
+  padding-top: 3.3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #92989f;
+}
+.copyright ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+.copyright ul li {
+  border-right: 1px solid #92989f;
+  padding-right: 1.5rem;
+}
+@media (max-width: 1200px) {
+  .subscribe {
+    flex-direction: column;
+  }
+  .email-input {
+    padding-top: 1rem;
+  }
+  .copyright {
+    flex-direction: column;
+  }
+}
+@media (max-width: 992px) {
+  .footer {
+    padding: 2rem;
+  }
+  .email-input {
+    padding-top: 1rem;
+  }
+  .subscribe {
+    flex-direction: column;
+  }
+  .copyright {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright ul li {
+    height: 0.5rem;
+    padding-bottom: 2rem;
+  }
+}
